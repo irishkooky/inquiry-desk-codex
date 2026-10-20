@@ -1,0 +1,24 @@
+{
+  "name": "inquiry-desk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "問い合わせ文を仮分類する小さなサンプルアプリ（AIコーディングエージェント研修用）",
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.ts",
+    "test": "tsx --test classify.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "fsevents": true
+  }
+}
